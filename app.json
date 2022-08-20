@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "scheme": "preventsa",
+    "name": "Preventsa Mobile",
+    "slug": "preventsa-mobile",
+    "version": "1.0.0",
+    "orientation": "default",
+    "platforms": ["ios", "android"],
+    "privacy": "hidden",
+    "sdkVersion": "40.0.0",
+    "userInterfaceStyle": "automatic",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "notification": {
+      "icon": "./assets/icon.png"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.preventsa.preventsa",
+      "buildNumber": "1.0.0",
+      "userInterfaceStyle": "automatic"
+    },
+    "android": {
+      "package": "com.preventsa.preventsa",
+      "versionCode": 1,
+      "softwareKeyboardLayoutMode": "pan",
+      "permissions": ["CAMERA", "NOTIFICATIONS", "CAMERA_ROLL", "READ_EXTERNAL_STORAGE", "WRITE_EXTERNAL_STORAGE"],
+      "useNextNotificationsApi": true,
+      "userInterfaceStyle": "automatic"
+    }
+  }
+}
